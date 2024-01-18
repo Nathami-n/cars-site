@@ -30,7 +30,7 @@ const Navbar = () => {
             <Link>Home</Link>
             <Link>Contact</Link>
           </Stack>
-          <IconButton sx={{color:'black', display:{sx:'block', md:'none', xl:'none'}}} onClick={handleMenu} >
+          <IconButton sx={{color:'#fff', display:{sx:'block', md:'none', xl:'none'}}} onClick={handleMenu} >
           <MenuIcon className="menu-btn"/>
           </IconButton>   
           {menu && <SideNav/>}

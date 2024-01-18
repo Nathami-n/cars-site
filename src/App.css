@@ -7,7 +7,7 @@
 
 /* LINKS */
 a {
-  color: #111111;
+  color: #fffefe;
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -16,5 +16,6 @@ a {
 .img-div {
   background: url('/public/sven-d-a4S6KUuLeoM-unsplash.jpg') no-repeat;
   background-size: cover;
+  background-position: center;
 }
 

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { Logo, SideNav } from "./";
 
 const Navbar = () => {
-    const [menu, setMenu] = useState(false)
+    const [menu, setMenu] = useState(true)
     const handleMenu = () => {
         setMenu(!menu)
     }
@@ -33,10 +33,10 @@ const Navbar = () => {
           <IconButton sx={{color:'#fff', display:{sx:'block', md:'none', xl:'none'}}} onClick={handleMenu} >
           <MenuIcon className="menu-btn"/>
           </IconButton>   
-          {menu && <SideNav/>}
         </Stack>
       </AppBar>
-    </Box>
+      <SideNav menu={menu} setMenu={setMenu}/>
+         </Box>
   );
 };
 

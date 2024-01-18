@@ -1,3 +1,4 @@
+/* RESETS */
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,14 @@
 
 /* LINKS */
 a {
-  color: #e0dcdc;
+  color: #111111;
   text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* BODY */
+.img-div {
+  background: url('/public/sven-d-a4S6KUuLeoM-unsplash.jpg') no-repeat;
+  background-size: cover;
+}
+

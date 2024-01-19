@@ -4,18 +4,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* LINK-RESET */
+a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 
 /* LINKS */
-a {
+.pc-nav * > a {
   color: #fffefe;
-  text-decoration: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* border-bottom: 2px solid hsl(152, 35%, 57%); */
+}
+
+/* .pc-nav * > a:hover,
+.pc-nav * > a:active,
+.pc-nav * > a:focus-visible {
+  border-bottom: 2px solid hsl(155, 70%, 13%/ 90%);
+} */
+
+/* NAV-LINK */
+.nav-link {
+  /* background-color: red !important; */
+  padding-inline: 25% !important;
 }
 
 /* BODY */
 .img-div {
-  background: url('/public/sven-d-a4S6KUuLeoM-unsplash.jpg') no-repeat;
+  background: url("/public/sven-d-a4S6KUuLeoM-unsplash.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
-

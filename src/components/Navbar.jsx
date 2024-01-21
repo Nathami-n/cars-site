@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { Logo, SideNav } from "./";
 
 const Navbar = () => {
-    const [menu, setMenu] = useState(true)
+    const [menu, setMenu] = useState(false)
     const handleMenu = () => {
         setMenu(!menu)
     }
